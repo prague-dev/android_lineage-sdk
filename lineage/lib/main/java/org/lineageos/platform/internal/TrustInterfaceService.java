@@ -55,7 +55,7 @@ import java.util.NoSuchElementException;
 public class TrustInterfaceService extends LineageSystemService {
     private static final String TAG = "LineageTrustInterfaceService";
 
-    private static final String PLATFORM_SECURITY_PATCHES = "ro.build.version.security_patch";
+    private static final String PLATFORM_SECURITY_PATCHES = "ro.build.version.security_patch_sys";
     private static final String VENDOR_SECURITY_PATCHES = "ro.vendor.build.security_patch";
     private static final String LINEAGE_VENDOR_SECURITY_PATCHES =
             "ro.lineage.build.vendor_security_patch";
